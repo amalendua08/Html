@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend><i><b><span style="color: red">Form</span></b></i></legend><br>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" placeholder="Enter your name"  maxlength="25" required>
+			<br><br>
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email" value="test@example.com" required autofocus ><br><br>
+			<label for="pwd">Password:</label>
+			<input type="password" id="pwd" name="password" minlength="6" required><br><br>
+			<label for="job">Category:</label>
+			<select id="job" name="job"  required>
+				<option>Student</option>
+				<option>Employee</option>
+				<option value="Freelancer" selected>Freelancer</option>
+			</select><br><br>
+			<label for="evt">Event Date:</label>
+			<input type="date" id="evt" name="date" required><br><br>
+			<label for="tkt">Number of Tickets:</label>
+			<input type="radio" id="tkt" name="tickets" value="tickets" required>1 ticket
+			<input type="radio" id="tkt" name="tickets" value="tickets" required checked>2 tickets
+			<input type="radio" id="tkt" name="tickets" value="tickets" required>3 tickets<br><br>
+			<label for="pay"></label>
+			<input type="checkbox" id="pay" name="pay" required>Online Payment<br><br>
+			<label for="Nts">Notes:</label>
+			<textarea rows="4" cols="40" id="Nts" name="Notes" placeholder="Enter your remarks "></textarea><br><br>
+			<input type="submit" value="Submit">
+
+		</fieldset>
+	</form>
+
+</body>
+</html>
